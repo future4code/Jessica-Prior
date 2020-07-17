@@ -1,6 +1,6 @@
 .imgfundo{
     background: url(https://images5.alphacoders.com/431/431830.jpg);
-    background-repeat: ;
+    background-repeat: none;
     background-size: auto;
 }
 
@@ -19,19 +19,26 @@ html, body {height:100%;}
     text-align: center;
 }
 
+.controle-estilo{
+    
+    font-size: 20px;
+    font-style: initial;
+    color: white;
+}
+
 .tamanho{
     height: 40px;
 }
 
 .coresletras{
-    display: ;
+    
     font-size: 20px;
     font-style: initial;
     color: white;
 }
 
 .cores{
-    display: ;
+    
     font-size: 20px;
     font-style: initial;
     color: white;
@@ -49,6 +56,6 @@ footer {
     color: rgb(255, 255, 255);
     text-align: center;
     position: absolute;
-    bottom: 0;
+    bottom: none;
     width: 100%;
   }
