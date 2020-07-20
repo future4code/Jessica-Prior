@@ -124,6 +124,11 @@ td button {
     height: 100px;
 }
 
+.barra-search{
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
 
 #back-button {
     background-color: white;
