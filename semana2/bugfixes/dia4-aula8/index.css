@@ -124,6 +124,10 @@ td button {
     height: 100px;
 }
 
+.textos{
+    font-family: roboto;
+}
+
 .barra-search{
     border-top: 0;
     border-left: 0;
