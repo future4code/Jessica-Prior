@@ -1,0 +1,198 @@
+/* numero1*/
+
+#pond {
+    display: flex;
+  justify-content: flex-end;
+  }
+
+/* numero2*/
+
+#pond {
+    display: flex;
+  justify-content: center;
+  }
+
+  /*numero3*/
+
+  #pond {
+    display: flex;
+  justify-content: space-around;
+  }
+
+  /*numero4*/
+
+  #pond {
+    display: flex;
+  justify-content: space-between;
+  }
+
+  /*numero5*/
+
+  #pond {
+    display: flex;
+  align-items: flex-end;
+  }
+
+  /*numero6*/
+
+  #pond {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  /*numero7*/
+
+  #pond {
+    display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  }
+
+  /*numero8*/
+
+  #pond {
+    display: flex;
+  flex-direction: row-reverse;
+  }
+
+  /*numero9*/
+
+  #pond {
+    display: flex;
+  flex-direction: column;
+  }
+
+  /*numero10*/
+
+  #pond {
+    display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  }
+
+  /*numero11*/
+
+  #pond {
+    display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  }
+
+  /*numero12*/
+
+  #pond {
+    display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  }
+
+  /*numero13*/
+
+  #pond {
+    display: flex;
+  flex-direction:row-reverse;
+  justify-content: center;
+  align-items: flex-end;
+  }
+
+  /*numero14*/
+
+  #pond {
+    display: flex;
+  }
+  
+  .yellow {
+  order: 1;
+  }
+
+  /*numero15*/
+
+  #pond {
+    display: flex;
+  }
+  
+  .red {
+  order: -1;
+  }
+
+  /*numero16*/
+
+  #pond {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .yellow {
+  align-self: flex-end;
+  }
+
+  /*numero17*/
+
+  #pond {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .yellow {
+  order: 1;
+  align-self: flex-end;
+  }
+
+  /*numero18*/
+
+  #pond {
+    display: flex;
+  flex-wrap: wrap;
+  }
+
+  /*numero19*/
+
+  #pond {
+    display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  }
+
+  /*numero20*/
+
+  #pond {
+    display: flex;
+  flex-flow: column wrap;
+  }
+
+  /*numero21*/
+
+  #pond {
+    display: flex;
+    flex-wrap: wrap;
+  align-content: flex-start;
+  }
+
+  /*numero22*/
+
+  #pond {
+    display: flex;
+    flex-wrap: wrap;
+  align-content: flex-end;
+  }
+
+  /*numero23*/
+
+  #pond {
+    display: flex;
+    flex-wrap: wrap;
+  flex-direction: column-reverse;
+  align-content: center;
+  }
+
+  /*numero24*/
+
+  #pond {
+    display: flex;
+  flex-direction: column-reverse;
+  flex-wrap: wrap-reverse;
+  align-content: space-between;
+  justify-content: center;
+  }
+
