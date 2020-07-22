@@ -1,0 +1,45 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+    color: white;
+
+}
+
+#top-container{
+    display: flex;
+    flex-direction: row;
+    flex-basis:  auto;
+}
+
+.green-background {
+    background-color: green;
+    height: 100%;
+}
+
+.yellow-background {
+    background-color: yellow;
+    height: 100%;
+}
+
+.pink-background {
+    background-color: fuchsia;
+}
+
+.blue-background {
+    background-color: blue;
+}
+
+.red-background {
+    background-color: red;
+}
+
+.lightgreen-background {
+    background-color: lightgreen;
+}
+
+.purple-background {
+    background-color: purple;
+}
