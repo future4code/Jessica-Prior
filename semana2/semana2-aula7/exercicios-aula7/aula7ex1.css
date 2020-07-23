@@ -1,0 +1,33 @@
+.tres-vezes-root {
+    font-size: 3rem;
+}
+
+.paddings-verticais {
+    padding: 2em 0;
+}
+
+.altura-vinte-por-cento {
+    height: 20vw;
+}
+
+.comprimento-metade-altura {
+    width: 50vh;
+}
+
+.classe-ul {
+    height: 50px;
+    background-color: blue;
+}
+
+.fonte-setenta {
+    font-size: 70%;
+}
+
+.comprimento-dez {
+    width: 10%;
+}
+
+.altura-dez {
+    height: 10%;
+    background-color: red;
+}
