@@ -1,0 +1,47 @@
+.imgfundo{
+    background: url(https://images5.alphacoders.com/431/431830.jpg);
+    background-repeat: repeat;
+    background-size: auto;
+}
+
+html, body {height:100%;}
+
+.titulo{
+    font-size: 60px;
+    color: rgba(0, 195, 255, 0.829);
+    text-shadow: 0.1em 0.01em rgb(0, 0, 0);
+    text-align: center;
+  }
+
+.links-paginas, a{
+    font-size: 27px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    position: center;
+}
+
+.tamanho{
+    height: 40px;
+}
+
+.escrita{
+    font-size: 20px;
+    font-style: initial;
+    color: rgb(255, 255, 255);
+}
+
+#escrita-rodape{
+    display: inline;
+    font-size: 20px;
+    font-style: initial;
+    text-shadow: 0.1em 0.15em rgb(0, 0, 0);
+}
+
+footer {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }

@@ -1,0 +1,69 @@
+.pgntoda{
+    height:auto;
+    padding: 40px 0;
+    color:#fff;
+    font-size:20px;
+    text-align:center;
+    border-radius:4px;
+    border:1px solid #c0289f;
+    box-shadow: inset 0 2px 3px 0 rgba(255,255,255,.3), inset 0 -3px 6px 0 rgba(0,0,0,.2), 0 3px 2px 0 rgba(0,0,0,.2);
+    background-image: linear-gradient(to bottom, #2b9bcf, #860098 130%);
+}
+
+.navegacao {
+    overflow: hidden;
+    display: fixed;
+  }
+
+.navegacao a {
+    font-family: Fredericka the Great;
+    float: right;
+    display: fixed;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 30px;
+    border-radius: 10%;
+}
+
+.navegacao a:hover {
+    background-color: rgba(0, 204, 255, 0.644);
+    color: black;
+}
+
+#home{
+    float: left;
+}
+
+figure {
+    float: center;
+    width: 30%;
+    font-family: aleo;
+    text-align: center;
+    font-size: smaller;
+    text-indent: 0;
+    margin: 0.5em;
+    padding: 0.5em;
+  }
+
+#escrita-rodape{
+    font-family: Fredericka the Great;
+    display: fixed;
+    font-size: 20px;
+    font-style: initial;
+    color: black;
+}
+
+.tamanho{
+    height: 50px;
+}
+
+footer {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    position: bottom;
+    bottom: 0;
+    width: 100%;
+  }

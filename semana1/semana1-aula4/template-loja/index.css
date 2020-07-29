@@ -1,7 +1,7 @@
 .imgfundo{
     background: url(https://images5.alphacoders.com/431/431830.jpg);
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: absolute;
 }
 
 html, body {height:100%;}
@@ -37,10 +37,10 @@ html, body {height:100%;}
     font-style: initial;
     text-align: center;
     color: rgb(253, 253, 253);
-    top: 35%;
+    top: 50%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%) 
+    transform: translate(-50%, -50%); 
 }
 
 #escrita-rodape{
