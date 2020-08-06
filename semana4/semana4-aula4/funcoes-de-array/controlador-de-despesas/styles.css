@@ -1,0 +1,30 @@
+body {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+img {}
+
+#Secao-cadastro {
+    border: 15%;
+}
+
+button {
+    width: 100px;
+    margin: 0 auto;
+    padding: 2px;
+    border-radius: 5px;
+    border: 1px solid rgb(77, 77, 77);
+}
+
+input,
+textarea {
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+label {
+    width: 10%;
+    text-align: right;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
