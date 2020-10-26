@@ -46,22 +46,28 @@ app.get("/users", (req: Request, res: Response): void =>{
 app.post("/users", (req: Request, res: Response): void=>{
 
     try{
+        const {name, cpf, date, balance, extract} = req.body;
         if (new Date().getFullYear() - (req.body.date / 10000) >= 18) {
-            const {name, cpf, date, balance, extract} = req.body;
+                throw new Error("Usuário precisa ser maior de 18.")            
+        } 
 
-            const user: account = {
-                name: name,
-                cpf: cpf,
-                date: date,
-                balance: balance,
-                extract: extract
-            }
+        const cpfIdem = users.find((item) => item.cpf === req.body.cpf)
 
-            users.push(user);
-            res.status(200).send({message: "Usuário criado com sucesso!!"});
-        } else {
-            throw new Error("Usuário precisa ser maior de 18.")
+        if(cpfIdem) {
+            throw  new Error("Já existe uma conta criada com esse cpf")
         }
+
+        const user: account = {
+            name: name,
+            cpf: cpf,
+            date: date,
+            balance: balance,
+            extract: extract
+        }
+
+        users.push(user);
+        res.status(200).send({message: "Usuário criado com sucesso!!"});
+
     }catch(error){
             res.status(400).send({
                 message: (error.message)
