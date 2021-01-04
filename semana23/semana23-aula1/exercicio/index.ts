@@ -21,6 +21,5 @@ function reshapingWord(word1: string, word2: string): boolean {
     if (Math.abs(word2.length - word1.length) > 1) {
         return false
     }
-
 }
 
