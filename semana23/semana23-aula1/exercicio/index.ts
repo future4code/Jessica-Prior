@@ -1,9 +1,14 @@
 // Exercicio 1
 
-function reshapingWord(word1: string, word2: string): boolean {
+const reshapingWord = (word1: any, word2: any): boolean => {
 
     if (word1 === word2) {
         return false;
+    }
+
+    // Verifica se tem mais de um caractere add na palavra
+    if (Math.abs(word2.length - word1.length) > 1) {
+        return false
     }
 
     // Se uma é maior que a outra, a maior obrigatoriamente deve incluir a outra
@@ -17,9 +22,11 @@ function reshapingWord(word1: string, word2: string): boolean {
         if (word1[i] !== word2[i]) charsDiffCount++
     }
 
-    // Verifica se tem mais de um caractere add na palavra
-    if (Math.abs(word2.length - word1.length) > 1) {
-        return false
-    }
+    return charsDiffCount === 1
+
 }
 
+console.log(reshapingWord('naruto', 'naaruto'))
+console.log(reshapingWord('naruto', 'naruto'))
+console.log(reshapingWord('naruto', 'narut'))
+console.log(reshapingWord('naruto', 'naruko'))
